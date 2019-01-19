@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Code-Hex/pget"
+	"github.com/wamiq-reyaz/pget"
 )
 
 func main() {
