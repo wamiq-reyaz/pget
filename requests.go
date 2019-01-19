@@ -108,9 +108,9 @@ func (p *Pget) Download() error {
 	// calculate split file size
 	split := filesize / procs
 
-	if err := p.Utils.IsFree(split); err != nil {
-		return err
-	}
+// 	if err := p.Utils.IsFree(split); err != nil {
+// 		return err
+// 	}
 
 	grp, ctx := errgroup.WithContext(context.Background())
 
